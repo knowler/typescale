@@ -14,29 +14,30 @@ Here’s a simple example:
 const typescale = require('@knowler/typescale')
 
 typescale({
-  ratio: 1.25,    // Defaults to 1.25
-  start: -2,      // Defaults to -1
-  end: 8,         // Required
+  ratio: 4/3,     // Defaults to 1.25
+  top: 8,         // Required
+  bottom: -3,     // Defaults to -1
   base: 16,       // Defaults to 1
   unit: 'px',     // Defaults to 'rem'
+  precision: 2,   // Defaults to 3
   prefix: 'f'     // Defaults to 's'
 })
 ```
 
-This outputs:
+This generates the following typescale:
 
 ```
 {
-  'f-2': '10.24px',
-  'f-1': '12.8px',
+  'f-2': '9px',
+  'f-1': '12px',
   f0: '16px',
-  f1: '20px',
-  f2: '25px',
-  f3: '31.25px',
-  f4: '39.063px',
-  f5: '48.828px',
-  f6: '61.035px',
-  f7: '76.294px',
-  f8: '95.367px'
+  f1: '21.33px',
+  f2: '28.44px',
+  f3: '37.93px',
+  f4: '50.57px',
+  f5: '67.42px',
+  f6: '89.9px',
+  f7: '119.86px',
+  f8: '159.82px'
 }
 ```
