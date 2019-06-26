@@ -2,6 +2,10 @@
 
 A simple modular typescale utility.
 
+```
+npm i @knowler/typescale
+```
+
 ## Usage
 
 Here’s a simple example:
