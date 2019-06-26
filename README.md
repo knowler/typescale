@@ -1,5 +1,8 @@
 # @knowler/typescale
 
+[![npm version](http://img.shields.io/npm/v/@knowler/typescale.svg?style=flat)](https://npmjs.org/package/@knowler/typescale "View this project on npm")
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 A simple modular typescale utility.
 
 ```
