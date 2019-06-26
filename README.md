@@ -19,7 +19,7 @@ const typescale = require('@knowler/typescale')
 typescale({
   ratio: 4/3,     // Defaults to 1.25
   top: 8,         // Required
-  bottom: -3,     // Defaults to -1
+  bottom: -2,     // Defaults to -1
   base: 16,       // Defaults to 1
   unit: 'px',     // Defaults to 'rem'
   precision: 2,   // Defaults to 3
