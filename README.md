@@ -23,7 +23,7 @@ typescale({
   base: 16,       // Defaults to 1
   unit: 'px',     // Defaults to 'rem'
   precision: 2,   // Defaults to 3
-  prefix: 'f'     // Defaults to 's'
+  prefix: 'f',    // Defaults to 's'
 })
 ```
 
