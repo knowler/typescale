@@ -2,11 +2,15 @@
   "name": "@knowler/typescale",
   "version": "0.2.0",
   "main": "index.js",
+  "module": "main.js",
   "license": "MIT",
   "scripts": {
     "release": "np"
   },
   "devDependencies": {
     "np": "^5.0.3"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }

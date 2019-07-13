@@ -14,7 +14,8 @@ npm i @knowler/typescale
 Here’s a simple example:
 
 ```
-const typescale = require('@knowler/typescale')
+const { typescale } = require('@knowler/typescale')
+// or as an ES module: import { typescale } from '@knowler/typescale'
 
 typescale({
   ratio: 4/3,     // Defaults to 1.25
